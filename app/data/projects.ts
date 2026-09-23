@@ -139,6 +139,83 @@ export const projects: Project[] = [
     ],
   },
 
+{
+  slug: "hireflow",
+  number: "04",
+  title: "HireFlow — Recruitment Management Platform",
+  category: "Recruitment & ATS Product",
+
+  shortDescription:
+    "A modern recruitment management platform for managing jobs, candidates, interviews, hiring pipelines and recruitment analytics.",
+
+  description:
+    "A full-featured recruitment and Applicant Tracking System built to streamline the hiring workflow, from candidate discovery and application tracking to interviews, offers and hiring.",
+
+  year: "2026",
+  role: "Frontend Developer",
+
+  technologies: [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "dnd-kit",
+    "LocalStorage",
+  ],
+
+  image: "/hireflow.png",
+
+  liveUrl: "https://hire-stack-tau.vercel.app/login",
+  githubUrl: "https://github.com/e659/HireFlow",
+
+  overview:
+    "HireFlow provides recruiters with a centralized workspace to manage the complete recruitment lifecycle. The platform includes authentication, job management, candidate profiles, application pipelines, interview scheduling and recruitment analytics.",
+
+  challenges: [
+    "Designing a complete recruitment workflow from application to hiring.",
+    "Managing candidate stages across different job applications.",
+    "Implementing drag-and-drop candidate pipelines.",
+    "Keeping job, candidate and interview data synchronized.",
+    "Building reusable components and hooks for a scalable frontend architecture.",
+    "Creating responsive dashboards that work across desktop and mobile devices.",
+    "Persisting application data using browser storage for the demo environment.",
+  ],
+
+  solutions: [
+    "Built the application using Next.js App Router and reusable React components.",
+    "Implemented a multi-stage recruitment pipeline using dnd-kit.",
+    "Created reusable custom hooks for jobs, candidates, interviews and local storage.",
+    "Connected candidates with jobs, applications and interview history.",
+    "Built dynamic dashboards and analytics based on recruitment data.",
+    "Implemented authentication and protected routes for the application.",
+    "Used Tailwind CSS to create a responsive and consistent design system.",
+    "Added Framer Motion for smooth interactions and transitions.",
+  ],
+
+  features: [
+    "Authentication",
+    "Protected Routes",
+    "Recruitment Dashboard",
+    "Job Management",
+    "Candidate Management",
+    "Candidate Profiles",
+    "Application Tracking",
+    "Drag & Drop Hiring Pipeline",
+    "Interview Scheduling",
+    "Interview History",
+    "Recruitment Analytics",
+    "Hiring Funnel",
+    "AI-Style Candidate Scoring",
+    "Search & Filtering",
+    "Candidate Tags & Notes",
+    "Resume Management",
+    "Responsive Design",
+    "Local Data Persistence",
+  ],
+},
+
+
   {
     slug: "chat-application",
     number: "03",
